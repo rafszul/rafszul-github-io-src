@@ -12,8 +12,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { MyWorkComponent } from './my-work/my-work.component';
 import { ContactComponent } from './contact/contact.component';
 import { MyCvComponent } from './my-cv/my-cv.component';
-import { FooterSubnavComponent } from './layout/footer-subnav/footer-subnav.component';
-import { HeaderSubnavComponent } from './layout/header-subnav/header-subnav.component';
+import { FooterComponent } from './layout/footer/footer.component';
+import { HeaderComponent } from './layout/header/header.component';
 import { LostComponent } from './lost/lost.component';
 
 @NgModule({
@@ -24,8 +24,8 @@ import { LostComponent } from './lost/lost.component';
     MyWorkComponent,
     ContactComponent,
     MyCvComponent,
-    FooterSubnavComponent,
-    HeaderSubnavComponent,
+    FooterComponent,
+    HeaderComponent,
     LostComponent
   ],
   imports: [
