@@ -14,6 +14,7 @@ import { ContactComponent } from './contact/contact.component';
 import { MyCvComponent } from './my-cv/my-cv.component';
 import { FooterSubnavComponent } from './layout/footer-subnav/footer-subnav.component';
 import { HeaderSubnavComponent } from './layout/header-subnav/header-subnav.component';
+import { LostComponent } from './lost/lost.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HeaderSubnavComponent } from './layout/header-subnav/header-subnav.comp
     ContactComponent,
     MyCvComponent,
     FooterSubnavComponent,
-    HeaderSubnavComponent
+    HeaderSubnavComponent,
+    LostComponent
   ],
   imports: [
     BrowserModule,
