@@ -15,6 +15,7 @@ import { MyCvComponent } from './my-cv/my-cv.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { HeaderComponent } from './layout/header/header.component';
 import { LostComponent } from './lost/lost.component';
+import { MainComponent } from './layout/main/main.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { LostComponent } from './lost/lost.component';
     MyCvComponent,
     FooterComponent,
     HeaderComponent,
-    LostComponent
+    LostComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

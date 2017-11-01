@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'rafszul-footer',
-  templateUrl: './footer.component.html',
+  selector: 'rafszul-main',
+  templateUrl: './main.component.html',
   styleUrls: ['./../layout.scss']
 })
-export class FooterComponent implements OnInit {
+export class MainComponent implements OnInit {
 
   constructor() { }
 
