@@ -7,10 +7,24 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { MyWorkComponent } from './my-work/my-work.component';
+import { ContactComponent } from './contact/contact.component';
+import { MyCvComponent } from './my-cv/my-cv.component';
+import { FooterSubnavComponent } from './layout/footer-subnav/footer-subnav.component';
+import { HeaderSubnavComponent } from './layout/header-subnav/header-subnav.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    AboutMeComponent,
+    MyWorkComponent,
+    ContactComponent,
+    MyCvComponent,
+    FooterSubnavComponent,
+    HeaderSubnavComponent
   ],
   imports: [
     BrowserModule,
